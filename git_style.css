@@ -3,12 +3,16 @@
 /* shared styles */
 body{font-family: 'Open Sans', sans-serif;}
 /* nav related styles */
-nav{display: flex;}
+nav{display: flex;align-items: center;
+    justify-content: space-between;
+}
 .nav-title{color: aqua;font-size: 45px;font-weight: 800;}
 .primary{color: orange;}
-.btn-primary{background-color: orange;border-radius: 5px;}
+.btn-primary{background-color: orange;border-radius: 5px;border: none;
+    font-size: 15px;font-weight: 400;color: white;padding: 10px 15px;
+}
 .mary{color: red;}
 
-nav > ul{display: flex;}
+nav > ul{display: flex;align-items: center;}
 nav li{list-style: none;margin-right: 50px;}
 nav a {text-decoration: none;color: gray;}
